@@ -19,7 +19,7 @@ A simple Python script that updates MP3 ID3 tags from file names and exports a f
 Install dependencies:
 
 ```bash
-pip install mutagen openpyxl
+pip install -r requirements.txt
 ```
 
 ## Usage
@@ -27,12 +27,12 @@ pip install mutagen openpyxl
 Run the script and pass the target folder path:
 
 ```bash
-python metadata.py "C:\\Path\\To\\Your\\MP3Folder"
+python metadata.py "\Path\To\Your\MP3MusicFolder"
 ```
 
 Example:
 
-```bash
+```powershell
 python metadata.py "C:\\Users\\john\\Music\\Playlist"
 ```
 
